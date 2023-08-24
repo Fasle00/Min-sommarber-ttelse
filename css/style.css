@@ -4,16 +4,21 @@ body {
 }
 
 .container {
-    width: min(80vw - 20rem);
+    width: min(90ch - 20rem);
     margin-inline: auto;
-    display: grid;
-    justify-items: center;
+    font-size: 1.5rem;
 }
 
 header {
-    font-size: 1.2rem;
+    display: grid;
+    justify-items: center;
 
-    & p {
-        font-size: 0.8rem;
+    & p{
+        text-align: center;
+    }
+
+    & img{
+        width: 100%;
+        max-width: 30rem;
     }
 }
